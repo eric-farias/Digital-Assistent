@@ -53,7 +53,7 @@ with content:
     prompt = st.text_input("Escreva aqui:")
     if prompt:
         # Initialize PandasAI and OpenAI
-        llm = OpenAI(api_token="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")
+        llm = OpenAI(api_token=secrets.API_KEY)
         pandas_ai = PandasAI(llm)
         
         # Run PandasAI with user input prompt
