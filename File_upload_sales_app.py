@@ -29,7 +29,6 @@ img {
 # Render styles
 st.markdown(styles, unsafe_allow_html=True)
 
-image2 = Image.open(r"C:\Users\ericf\Desktop\Desktop\AssistenteDigital\Projects-main\Learn\sales-prediction.jpg")
 
 # Define header
 header = st.container()
